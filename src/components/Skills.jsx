@@ -53,7 +53,7 @@ const Skills = () => {
                                 {
                                     skills.map((items, index)=>(
                                         <div className="skill-card d-inline-block py-3 px-2 rounded-3 text-center" key={index}>
-                                            <img src={`../../public/${items.image}`} />
+                                            <img src={`/${items.image}`} />
                                             <p className="text-white m-0">{items.name}</p>
                                         </div>
                                     ))

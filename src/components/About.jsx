@@ -11,7 +11,7 @@ const About = () => {
                 <div className="row">
                     <div className="col-md-6 d-none d-md-block">
                         <div className="text-start d-flex align-items-center mb-5 mb-md-0 h-100">
-                            <img src="../../public/about_me_json.png" alt="" className="w-75 rounded-4 " />
+                            <img src="/about_me_json.png" alt="" className="w-75 rounded-4 " />
                         </div>
                     </div>
                     <div className="col-md-6">

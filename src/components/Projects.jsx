@@ -13,7 +13,7 @@ const Project = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="mb-5 mb-md-0 text-center h-100 d-flex align-items-center">
-                                <img src="../../public/ecommerce.png"/>
+                                <img src="/ecommerce.png"/>
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -68,14 +68,14 @@ const Project = () => {
                         </div>
                         <div className="col-md-6">
                         <div className="mb-5 mb-md-0 text-center h-100 d-flex align-items-center">
-                            <img src="../../public/newsWebtemplate_img.png"/>
+                            <img src="/newsWebtemplate_img.png"/>
                         </div>
                         </div>
                     </div>
                     <div className="row py-5">
                         <div className="col-md-6">
                             <div className="mb-5 mb-md-0 text-center h-100 d-flex align-items-center">
-                                <img src="../../public/FindPixels_img.png"/>
+                                <img src="/FindPixels_img.png"/>
                             </div>
                         </div>
                         <div className="col-md-6">
