@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.yellow-button{
+    background-color: #FACC15;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+.white-btn{
+    background-color: white;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+.icons{
+    background: white;
+    width: 38px;
+    height: auto;
+    padding: 7px;
+    border-radius: 18%;
+    cursor: pointer;
+}
+.theme-yellow{
+    color: #FACC15;
+}
+.text-gray{
+    color: #9CA3AF;
+}
+
+/* =======HEADER======== */
+.navbar{
+    background-color: #020617;
+    position: sticky !important;
+    top: 0px !important;
+}
+.navbarBrand{
+    color:white !important;
+}
+.navlink{
+    color: #9CA3AF !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar .active{
+    color: white !important;
+    scale: 1.1;
+    transition: 0.2s all ease-in-out;
+}
+.navlink:hover{
+    color: white !important;
+    scale: 1.1;
+    transition: 0.2s all ease-in-out;
+}
+
+/* ============HEROSECTION========== */
+.HeroSection{
+    background: #111827;
+}
+.HeroSection h1{
+    color: white;
+    font-size: 65px;
+}
+
+/* ==========ABOUT========== */
+.about-section{
+    background: #020617;
+}
+
+/*=============SKILLS=========*/
+.skill-section{
+    background: #111827;
+}
+.skill-card{
+    background-color: rgb(55, 65, 81, 1);
+}
+.skill-card img{
+    width: 96px;
+    height: 96px;
+}
+.skill-card:hover{
+    background-color: rgb(255, 255, 255, 0.4);
+    transition: 0.2s all ease-in-out;
+}
+
+/* ===========PROJECTS SECTION========= */
+
+.project-section{
+    background: #020617;
+}
+.project-section img{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+.technologies span{
+    background-color: rgb(55, 65, 81, 1);
+    padding: 5px 15px;
+    color: white;
+    border-radius: 15px;
+}
+.technologies span:hover{
+    background-color: rgb(255, 255, 255, 0.4);
+    transition: 0.2s all ease-in-out;
+    cursor: default;
+}
+
+
+/* =============CONTACT========== */
+.contact-section{
+    background: #111827;
+}
+.contact-section input{
+    min-height: 60px;
+    min-width: 60%;
+    background-color: rgb(31, 41, 55);
+    border: none;
+    outline: none;
+    color: white;
+}
+.contact-section textarea{
+    background-color: rgb(31, 41, 55);
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+}
+
+/* ============FOOTER========== */
+.footer{
+    background:#020617;
+}
